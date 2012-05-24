@@ -25,3 +25,8 @@ To use just include the plugin in the HEAD section of the page **AFTER** calling
 ##Demos
 
 For more detailed examples of using PopUpWindow plus how to use the profiles feature, view the [demo page](http://rip747.github.com/popupwindow/ "PopUpWindow Demo Page").
+
+## Closing the popup window
+The popup window can now be closed by taking a reference of the element to which the window is attached and triggering a close event on it.
+$('#myPopup').trigger("close")
+

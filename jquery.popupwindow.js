@@ -80,6 +80,9 @@ jQuery.fn.popupwindow = function(p)
 			
 			return false;
 		});
+                jQuery(this).bind("close", function(){
+                        winObj.close();            
+                }
 	});
 
 };
